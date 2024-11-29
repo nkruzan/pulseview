@@ -1199,7 +1199,7 @@ namespace exprtk
 
             exprtk_define_erf(      float,::erff)
             exprtk_define_erf(     double,::erf )
-            exprtk_define_erf(long double,::erfl)
+            //exprtk_define_erf(long double,::erfl)
             #undef exprtk_define_erf
             #endif
 
@@ -1243,7 +1243,7 @@ namespace exprtk
 
             exprtk_define_erfc(      float,::erfcf)
             exprtk_define_erfc(     double,::erfc )
-            exprtk_define_erfc(long double,::erfcl)
+            //exprtk_define_erfc(long double,::erfcl)
             #undef exprtk_define_erfc
             #endif
 
